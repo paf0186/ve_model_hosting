@@ -1,0 +1,50 @@
+<html>
+<head><meta charset="utf-8" /></head>
+<body>
+<title>Antibody & Effifacy Waning with Time</title>
+<h1>Antibody & Effifacy Waning with Time</h1>
+<p>This page is an attempt at visualizing some of the vaccine efficacy data and predictions in an easy, interactive manner.  This page relies primarily on the methods and data from the excellent paper "What level of neutralising antibody protects from COVID-19?", Khoury et al., Nature Medicine. [1]</p>
+
+<p>
+The paper combines data from various vaccine trials with established knowledge of antibody waning to model antibody levels over time, and model the relationship between antibody levels and vaccine efficacy.  The basic method is to normalizeantibody levels such that "1" is the average level of antibodies in a recovered patient, then compare the various vaccines to this metric.  This was done because the different trials measured antibody levels differently, but all of them also measured antibody levels in convalescent patients, giving a basis for comparison.
+</p>
+
+<p>
+The data for boosters is derived from the Pfizer and Moderna trial reports from fall 2021, where they reported antibody levels relative to those in the original 2 dose trial. [2,3]
+</p>
+
+<p>
+If you're interested in this, I highly recommend the original paper - it has some excellent graphs with more information than is shown here.
+</p>
+
+<h1>What's this graph?</h1>
+<p>
+This graph shows antibody levels over time, relative to antibody levels in people who've recovered from COVID ("Convalescent").  Clicking on the legend will add and remove different vaccines, including booster shots.
+
+It also has a few horizontal lines showing efficacy against symptomatic infection and against hospitalization.
+</p>
+
+<h1>Why?</h1>
+<p>
+I wanted to show two things:
+1. The incredible work in the original paper!
+2. The power of booster shots.  They raise antibody levels much higher than the original shots, and should stay effective much longer.
+</p>
+<h1>Sources</h1>
+<p>
+1. What level of neutralising antibody protects from COVID-19?
+David S Khoury, Deborah Cromer, Arnold Reynaldi, Timothy E Schlub, Adam K Wheatley, Jennifer A Juno, Kanta Subbarao, Stephen J Kent, James A Triccas, Miles P Davenport
+medRxiv 2021.03.09.21252641; doi: https://doi.org/10.1101/2021.03.09.21252641
+Now published in Nature Medicine doi: 10.1038/s41591-021-01377-8
+AVAILABLE AT: https://www.medrxiv.org/content/10.1101/2021.03.09.21252641v1#:~:text=The%2050%25%20protective%20neutralisation%20level,CI%20%3D%2014%2D28%25).
+PDF:
+https://www.medrxiv.org/content/10.1101/2021.03.09.21252641v1.full.pdf
+2. Pfizer VRBPAC Presentation, VRBPAC meeting September 17 2021:
+https://www.fda.gov/media/152240/download (Primarily slide 23)
+Full meeting materials: https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-september-17-2021-meeting-announcement#event-materials
+3. Moderna VRBPAC Presentation, VRBPAC meeting October 14-15 2021:
+https://www.fda.gov/media/153089/download (Primarily slide 15)
+Full meeting materials:
+https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-october-14-15-2021-meeting-announcement
+</p>
+
